@@ -41,7 +41,7 @@ var x = Xray({
 	}
 });
 
-x('https://vnexpress.net/tin-tuc/phap-luat', '.list_news', [{
+x('https://vnexpress.net/5-nguoi-lien-quan-vu-dau-gia-30-ty-dong-mot-m2-dat-bi-tam-giu-4823400.html', '.list_news', [{
   title: '.title_news a | trim',
   url: '.title_news a@href',
   detail: x('.title_news a@href', {
